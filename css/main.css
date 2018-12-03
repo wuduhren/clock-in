@@ -1,0 +1,170 @@
+body {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+/*prevent scrolling when modal open*/
+body.modal-open {
+    overflow: hidden;
+}
+
+h1 {
+    color: #666;
+    margin-top: 2rem;
+}
+
+/*nav*/
+.navbar-nav .active {
+    font-weight: 500;
+}
+#nav_mobile {
+    display: none;
+}
+
+/*application form*/
+.application_form {
+    width: 45%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    overflow: auto;
+}
+.application_form label {
+    display: block;
+    margin-top: 0.7rem;
+    margin-bottom: 0rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.application_form input:focus {
+    border-color: #7F7F7F;
+    border-width: 0.2rem;
+    box-shadow: none;
+}
+.application_form textarea:focus {
+    border-color: #7F7F7F;
+    border-width: 0.2rem;
+    box-shadow: none;
+}
+.application_form .application_form_action {
+    text-align: center; 
+    margin-top: 1.2em;
+}
+
+.tiny_info {
+    color: #aaa;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.pager .page-item.active .page-link {
+    background-color: #4267b2;
+    border-color: #4267b2;
+}
+
+.clock_in_table {
+    width: 60%;
+    margin-top: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+.clock_in_button {
+    font-size: 1.5rem;
+    padding-top: 0.03rem;
+    padding-bottom: 0.03rem;
+}
+
+
+/*DataTable*/
+.dataTables_wrapper {
+    width: 60%;
+    margin-top: 2.5rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+.dataTables_paginate ul {
+    justify-content: center !important;
+}
+.dataTables_paginate .page-item.active .page-link {
+    background-color: #4267b2;
+    border-color: #4267b2;
+}
+.dataTables_paginate .page-link {
+    color: #333;
+}
+.dataTables_paginate .page-link:focus {
+    outline: none;
+    box-shadow: none;
+}
+.dataTables_length {
+    text-align: left !important;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin-bottom: 1rem;
+    }
+    #nav_mobile {
+        display: block;
+        margin-top: 2.5rem;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #nav_mobile .innerbox {
+        text-align: center;
+        border: 2px solid #BFBFBF;
+        border-radius: 10px;
+        margin: 0rem 1rem 1rem 1rem;
+    }
+
+    .clock_in_table {
+        width: 90%;
+        margin-top: 1rem;
+    }
+    .clock_in_table td {
+        padding-left: 0.3rem;
+        padding-right: 0.3rem;
+        font-size: 1rem;
+    }
+    .clock_in_table th {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+    
+    .application_form {
+        width: 90%;
+        margin-top: 1rem;
+    }
+    
+    /*DataTable*/
+    .dataTables_wrapper {
+        width: 95%;
+        margin-top: 1rem;
+    }
+    .dataTables_wrapper td {
+        padding-left: 0.2rem !important;
+        padding-right: 0.2rem !important;
+        font-size: 0.8rem;
+    }
+    .dataTables_length {
+        text-align: center !important;
+    }
+}

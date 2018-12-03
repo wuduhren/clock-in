@@ -1,0 +1,117 @@
+[已完成]
+[2018-04-03]
+	action_clock.php clock_in()上班時間登記調整
+[2018-03-28]
+	clock-in 改成上班 下班, 修改文字大小
+	clock-in 修正閃爍問題clock.php, holiday.php
+	clock-in auto complete 問題
+	quiz-live-log 新增 以抓ip切換環境
+	quiz-live-log access key放到config.ini
+	quiz-live-log 建制單機環境
+	quiz-live-log 放到test環境除錯
+[2018-03-27]
+	clock-in 打卡後顯示時間
+[2018-03-26]
+	clock-in UI調整
+	clock-in 打卡排成修改
+	clock-in 安裝至csc-dev
+[2018-03-25]
+	clock-in 修改假日匯入csv格式
+	clock-in history release sql文件
+	clock-in 程式碼整理 UI調整
+	clock-in 新增管理人員停權/降級 防呆機制
+[2018-03-24]
+	clock-in 按鍵位置統一
+	clock-in 人員管理功能列放在視窗中
+	clock-in nav 手機版調整
+[2018-03-23]
+	clock-in 修改登入與權限邏輯
+	clock-in 管理人員與一般人員nav 合併
+[2018-03-22]
+	clock-in 新增首頁連結
+[2018-03-21]
+	clock-in 人員管理新增 停用狀態
+	clock-in 人員管理新增 新增使用者 新增管理人員
+	clock-in 管理人員可以替使用者修改密碼
+	clock-in btn responsive
+	clock-in 合併管理人員登入與一般人員登入
+	clock-in 合併請假與請假列表
+	clock-in 修改打卡排程範圍移除, 改成全域設定
+	clock-in 新增打卡排程說明
+[2018-03-19]
+	clock-in release至csc-dev.info
+	clock-in 新增自動打卡(script部分)
+	clock-in 新增國定假日刪除
+	clock-in 新增自動打卡開關
+	clock-in 整理文件
+[2018-03-18]
+	clock-in 新增自動打卡(script除外)
+	clock-in 程式碼, UI整理
+[2018-03-17]
+	clock-in 新增匯入國定假日功能
+[2018-03-16]
+	clock-in 新增管理人員 使用者列表 審核功能
+[2018-03-15]
+	clock-in 新增管理人員 打卡列表, 請假列表
+	bot 建置環境(rds除外)
+[2018-03-14]
+	clock-in 新增列表排序, 搜尋, 顯示筆數
+	clock-in 新增管理人員登入
+	clock-in 新增密碼修改/帳號資訊修改/登出
+[2018-03-13]
+	clock-in 新增列表分頁
+	clock-in 新增列表無資料處理
+	clock-in 新增請假記錄列表/打卡記錄列表
+[2018-03-12]
+	clock-in 新增請假功能
+	clock-in 新增記錄列表
+[2018-03-11]
+	clock-in 研究quiz-maker程式碼
+	clock-in 修改css使用rem
+	clock-in 新增打卡功能
+[2018-03-10]
+	clock-in 研究請假/打卡/國定假日資料庫設計
+[2018-03-09]
+	clock-in 新增登入功能/以md5加密密碼
+	cloclk-in 新增註冊功能
+
+
+
+[user status]
+0 - 停權
+1 - 一般
+
+[jQuery ready討論]
+https://www.sitepoint.com/jquery-document-ready-plain-javascript/
+https://stackoverflow.com/questions/13062246/when-should-i-use-jquerys-document-ready-function
+https://stackoverflow.com/questions/13062246/when-should-i-use-jquerys-document-ready-function
+https://learn.jquery.com/using-jquery-core/document-ready/
+結論: 如果已經把script放在body最下面就不用了
+
+[csv上傳]
+http://www.webslesson.info/2016/10/import-csv-file-data-into-mysql-database-using-php-ajax.html
+
+[datatable]
+1. cdn config
+https://datatables.net/download/
+2. bootstrap4 + basic
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/datatables.min.js"></script>
+3. bootstrap4 + basic + select
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.16/sl-1.2.5/datatables.min.css"/>
+<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.16/sl-1.2.5/datatables.min.js"></script>
+
+[coding style]
+if, for 後的"{}"要空格
+function後的"{}"不用空格
+
+[bootbox]
+https://github.com/makeusabrew/bootbox
+http://bootboxjs.com/
+
+[參考]
+http://www.eclock.com.tw/system/eclock/index.html
+
+[error]
+session_expired
+wrong_pwd

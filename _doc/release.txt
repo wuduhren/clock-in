@@ -1,0 +1,57 @@
+clock-in release:
+    clock-in打卡系統
+    1.1
+    Bootstrap: 4.0.0
+    jQuery: 3.3.1
+    DataTables: 1.10.16
+    Bootbox: 4.4.0
+    說明:
+        * 自動打卡新增檢查請假
+        * 用較安全的db帳號執行程式
+
+clock-in release:
+    clock-in打卡系統
+    1.0
+    Bootstrap: 4.0.0
+    jQuery: 3.3.1
+    DataTables: 1.10.16
+    Bootbox: 4.4.0
+    說明:
+        * 新增版號
+
+clock-in release:
+    clock-in打卡系統
+    2018-03-30
+    Bootstrap: 4.0.0
+    jQuery: 3.3.1
+    DataTables: 1.10.16
+    Bootbox: 4.4.0
+    說明:
+        * UI調整
+        * 管理人員控制自動打卡時間
+
+clock-in release:
+    clock-in打卡系統
+    2018-03-25
+    Bootstrap: 4.0.0
+    jQuery: 3.3.1
+    DataTables: 1.10.16
+    Bootbox: 4.4.0
+    說明:
+        * UI調整
+        * 頁面簡化
+        * csv格式調整
+        * 一般人員由管理員新增
+
+clock-in release:
+    clock-in打卡系統
+    2018-03-19
+    Bootstrap: 4.0.0
+    jQuery: 3.3.1
+    DataTables: 1.10.16
+    Bootbox: 4.4.0
+    說明:
+        * 使用者、管理人員管理打卡 請假及其記錄
+        * 管理人員審核註冊之使用者
+        * 管理人員匯入.CSV檔設定假日
+        * 使用者可設定自動打卡
