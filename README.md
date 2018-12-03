@@ -39,8 +39,9 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 
 
 # 安裝
-1. 將程式碼上傳至`www`目錄, 並修改`lib/config.php`資訊
-2. db中預設管理員帳密(default account and password):
+1. 將程式碼上傳至`www`目錄
+2. 修改`lib/config.php`DB及Domain資訊, db schema在 `_doc/db.sql`當中.
+3. db中預設管理員帳密(default account and password):
 
 	```
 	#帳號(account): root
@@ -48,7 +49,7 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 	#一般使用者需要等管理員新增帳號後才會取得帳密.
 	```
 
-3. 設定cronjob
+4. 設定cronjob
 
 # Cronjob設定
 1. 腳本存在`_script`目錄下面
