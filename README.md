@@ -16,23 +16,19 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 3. Auto clock-in. Admin is able to set "auto clock-in". Once it is ON, the system will automatically clock-in for the user.(Its a cheat, if some start-up doesn't care the working hour).
 
 # 截圖
-使用者線上打卡
-(User clock-in/clock-out on mobile.)
+### 使用者線上打卡(User clock-in/clock-out on mobile.)
 ![](https://imgur.com/Pv3yqBq.png)
 <br/>
-使用者查看打卡記錄
-(User check the history of clock-in/clock-out.)
+### 使用者查看打卡記錄(User check the history of clock-in/clock-out.)
 ![](https://imgur.com/N2cG3Vq.png)
 <br/>
-使用者請假
-(User ask for leave.)
+### 使用者線上請假(User ask for leave.)
 ![](https://imgur.com/iYonXZj.png)
 <br/>
-管理員擁有較多權限: 例如讀取使用者打卡及請假, 設定自動打卡.
-(Admin can do more things. Such as read statistic of all user, set auto clock-in.)
+### 管理員擁有較多權限: 例如讀取使用者打卡及請假, 設定自動打卡.(Admin can do more things. Such as read statistic of all user, set auto clock-in.)
 ![](https://imgur.com/XexQEsX.png)
 <br/>
-電腦版(Desktop)
+### 電腦版(Desktop)
 ![](https://imgur.com/L5JkKMX.png)
 <br/>
 ![](https://imgur.com/e7vEOkm.png)
