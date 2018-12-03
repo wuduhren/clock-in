@@ -1,4 +1,4 @@
-#clock-in
+# clock-in
 
 根據勞基法的規定, 公司都需要有一套紀錄員工上下班時間的打卡系統.
 
@@ -15,7 +15,7 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 2. Responsive
 3. Auto clock-in. Admin is able to set "auto clock-in". Once it is ON, the system will automatically clock-in for the user.(Its a cheat, if some start-up doesn't care the working hour).
 
-#截圖
+# 截圖
 使用者線上打卡
 (User clock-in/clock-out on mobile.)
 ![](https://imgur.com/Pv3yqBq.png)
@@ -35,7 +35,7 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 ![](https://imgur.com/uwm45B1.png)
 
 
-#安裝
+# 安裝
 1. 將程式碼上傳至`www`目錄, 並修改`lib/config.php`資訊
 2. db中預設管理員帳密(default account and password):
 
@@ -47,7 +47,7 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 
 3. 設定cronjob
 
-#Cronjob設定
+# Cronjob設定
 1. 腳本存在`_script`目錄下面
 2. dryrun.php 為測試用(for test). 可以先把要給cron執行的指令測試一下
 
@@ -68,7 +68,7 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 	*/15 * * * * curl https://csc-mgr.info/clock-in/_script/clock_in.php
 	```
 
-#csv格式
+# csv格式
 在管理介面 `admin_holiday.php` 可匯入.csv來新增, 修改國定假日. 
 第需要column名稱.
 範例:
@@ -85,27 +85,27 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 	"2018/9/3","軍人節","是","特定節日","軍人依國防部規定辦理。"
 	```
 
-#PHP SESSION
+# PHP SESSION
 1. session存在DB當中
 2. 每位使用者(包含管理人員)都需要`uid`的session來認證.
 3. 管理人員則會多一個`auth`的session來認證.
 
-#die_error()預期錯誤
+# die_error()預期錯誤
 0. `die_error()`處理程式碼在`js/utilities.js`中的`ajax`函式.
 1. `session_expired`: 找不到使用者`uid`的`session`能執行ajax, 代表`session`過期, 顯示`閒置過久, 請重新登入.`後轉跳至登入頁面.
 2. `wrong_pwd`: 使用者輸入錯誤之密碼. 顯示`密碼錯誤, 請重新登入.`後轉跳至登入頁面. 通常在登入頁面或是修改個人資料時會發生.
 
-#套件
-##Bootbox(4.4.0)
+# 套件
+## Bootbox(4.4.0)
 1. 有alert, confirm, prompt等功能, 提供較漂亮的介面與callback功能.
 2. 還沒完全支援Bootstrap: 4.0.0, 但確定alert功能沒問題
 3. 檔案放在js目錄底下的bootbox.min.js
 
-##Bootstrap(4.0.0)
+## Bootstrap(4.0.0)
 1. 包含css及js
 2. 都使用CDN
 
-##DataTables(1.10.16)
+## DataTables(1.10.16)
 1. 強大的table套件, 可以自動生成搜尋, 排序, 分頁, 選取等功能
 2. 唯若要更動它自動生成的dom還要另外include
 3. 其功選取(select)需要額外include, 在`admin_holiday.php`有使用到, 其cdn不太一樣, 要特別注意.
@@ -113,7 +113,7 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 5. CDN使用<https://datatables.net/download/>來生成, 目前都使用`bootstrap4`+`DataTables`(+ `select`)
 6. 目前`DataTables`的`paging功能`是假的全部載回來再分頁, 但比數不大沒差.
 
-##jQuery(3.3.1)
+## jQuery(3.3.1)
 ```
 1. 在js部分載入
 2. 使用其CDN
