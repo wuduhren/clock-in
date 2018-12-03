@@ -40,7 +40,7 @@ clock-in is a free, easy-to-use clock-in system for start up or small companies 
 
 # 安裝
 1. 將程式碼上傳至`www`目錄
-2. 修改`lib/config.php`DB及Domain資訊, db schema在 `_doc/db.sql`當中.
+2. 修改 `lib/config.php` DB及Domain資訊, db schema在 `_doc/db.sql` 當中.
 3. db中預設管理員帳密(default account and password):
 
 	```
